@@ -1,0 +1,120 @@
+package ParkingLot;
+
+import java.util.List;
+
+class ParkingLot {
+
+    List<ParkingFloor> parkingFloors;
+    List<EntranceGate> entrances;
+    List<ExitGate> exits;
+    Address address;
+    String parkingLotName;
+
+
+    static class Vehicle {
+        int no;
+        VehicleType type;
+    }
+
+    static enum VehicleType {
+        TW0_WHEELER, THREE_WHEELER, FOUR_WHEELER
+    }
+
+    static class ParkingSpot {
+        int id;
+        int price;
+        Vehicle vehicle;
+        boolean isEmpty;
+        ParkingSpaceType parkingSpaceType;
+
+        public int getPrice();
+        void parkVehicle(Vehicle v);
+        void removeVehicle(Vehicle v);
+    }
+
+    static enum parkingSpaceType {
+         TW0_WHEELER, THREE_WHEELER, FOUR_WHEELER
+    }
+
+    static class TwoWheelerParkingSpot extends ParkingSpot {
+        public int getPrice() {};
+    }
+
+    static class FourWheelerParkingSpot extends ParkingSpot {
+
+        public int getPrice() {
+            return 40;
+        }
+    }
+
+    static class ParkingFloor {
+        int levelId;
+        List<ParkingSpot> parkingSpace;
+
+        boolean isParkingSpotAvailable(VehicleType type);
+    }
+
+    static class ParkingTicket {
+        int ticketId;
+        int floorId;
+        int startTime;
+        Vehicle vehicle;
+        ParkingSpot parkingSpot;
+        ParkingTicketStatus status;
+    }
+
+    public enum ParkingTicketStatus {
+    	PAID, ACTIVE;
+    }
+
+    static class Gate {
+    	int gateId;
+    	ParkingAttendant parkingAttendant;
+    }
+
+    static class EntranceGate {
+        public ParkingTicket getParkingTicket(Vehicle vehicle);
+    }
+
+    static class ExitGate {
+        public ParkingTicket payForParking(ParkingTicket parkingTicket, PaymentType paymentType);
+    }
+
+    static class User {
+        String firstName;
+        String lastName;
+        String phoneNo;
+        String email;
+        String password;
+        Address address;
+    }
+
+     static class Address {
+            String city;
+            String street;
+            String state;
+            String country;
+            int pincode;
+        }
+
+    static class Admin extends User {
+        void addParkingSpot(int levelId, VehicleType type);
+        void removeParkingSpot(int parkingSpotId);
+    }
+
+    static class parkingAttendant extends User {
+        public PaymentInfo processPayment(ParkingTicket parkingTicket, PaymentType paymentType);
+    }
+
+    public class PaymentInfo {
+    	double amount;
+    	Date paymentDate;
+    	int transactionId;
+    	ParkingTicket parkingTicket;
+    	PaymentStatus paymentStatus;
+    }
+
+    public enum PaymentStatus {
+    	UNPAID, PENDING, COMPLETED, DECLINED, CANCELLED, REFUNDED;
+    }
+}
