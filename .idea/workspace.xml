@@ -5,6 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="186d3dcd-002d-4977-b8eb-aebc88ba4d03" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/SplitWise/Enums/ExpenseType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SplitWise/Factories/ExpenseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SplitWise/Factories/Splitfactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SplitWise/Input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SplitWise/InputProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SplitWise/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SplitWise/Models/Expense.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SplitWise/Models/Expenses/EqualExpense.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SplitWise/Models/Expenses/ExactExpense.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SplitWise/Models/Expenses/PercentageExpense.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SplitWise/Models/Split.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SplitWise/Models/Splits/EqualSplit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SplitWise/Models/Splits/ExactSplit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SplitWise/Models/Splits/PercentageSplit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SplitWise/Models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SplitWise/Problem.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SplitWise/Service/SplitwiseService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +33,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -43,13 +60,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="SplitWise" />
       <recent name="TicTacToe" />
       <recent name="RideApp" />
       <recent name="LibrarySystem" />
       <recent name="RideSharingApplication" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SnakesAndLadders">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="LibrarySystem.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LibrarySystem.Main" />
       <module name="LLD" />
@@ -63,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RideApp.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RideApp.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SplitWise.Main" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RideApp.*" />
+          <option name="PATTERN" value="SplitWise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RideSharingApplication.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RideSharingApplication.Main" />
+    <configuration name="RideApp.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RideApp.Main" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RideSharingApplication.*" />
+          <option name="PATTERN" value="RideApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.SnakesAndLadders" />
         <item itemvalue="Application.TicTacToe.Main" />
         <item itemvalue="Application.RideApp.Main" />
         <item itemvalue="Application.LibrarySystem.Main" />
-        <item itemvalue="Application.RideSharingApplication.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -139,10 +157,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.NullPointerException" package="java.lang" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="10" />
@@ -162,12 +176,12 @@
           <line>75</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SplitWise/InputProcessor.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="df.format(issuedDate)" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>

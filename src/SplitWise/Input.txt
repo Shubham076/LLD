@@ -1,0 +1,10 @@
+addUser u1
+addUser u2
+addUser u3
+addUser u4
+addExpense EQUAL u1 1000 4 u1 u2 u3 u4
+show
+addExpense EXACT u1 1250 2 u2 u3 370 880
+show
+addExpense PERCENTAGE u4 1200 4 u1 u2 u3 u4 40 20 20 20
+show
