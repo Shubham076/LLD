@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="186d3dcd-002d-4977-b8eb-aebc88ba4d03" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LLD.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DigitalWallet/InputProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DigitalWallet/Interface/Observable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DigitalWallet/Interface/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DigitalWallet/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DigitalWallet/Models/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DigitalWallet/Models/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DigitalWallet/Models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DigitalWallet/Offers/Offer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DigitalWallet/ProblemStatement" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DigitalWallet/Service/WalletService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DigitalWallet/TransactionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DigitalWallet/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LibrarySystem/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LibrarySystem/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LibrarySystem/Models/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LibrarySystem/Models/IssueHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LibrarySystem/Models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LibrarySystem/Problem.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LibrarySystem/Service/LibraryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Enums/UserType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Enums/VehicleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Interfaces/ChargingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Interfaces/ParkingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Interfaces/PaymentMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Models/ParkingFloor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Models/ParkingLot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Models/ParkingSlot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Models/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Models/Vehicles/Bike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Models/Vehicles/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Models/Vehicles/Truck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Models/Vehicles/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/ProblemStatement.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Service/ParkingLotService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/controllers/ChargingStrategies/PerDayCharging.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/controllers/ChargingStrategies/PerHourCharging.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/controllers/ParkingStrategies/NearestFirstParkingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/controllers/ParkingStrategies/TopFloorFirstParkingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/controllers/PaymentMethods/CreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/controllers/PaymentMethods/Upi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RideApp/Enums/RideStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RideApp/Exceptions/RideNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RideApp/Exceptions/UserNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RideApp/Exceptions/VehicleNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RideApp/Input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RideApp/InputProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RideApp/Interfaces/IRideSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RideApp/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RideApp/Models/Ride.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RideApp/Models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RideApp/Models/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RideApp/Problem.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RideApp/RideAppService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RideApp/RideSelectorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RideApp/RideSelectors/MostVacantSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RideApp/RideSelectors/PreferredVehicleSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RideSharingApplication/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RideSharingApplication/Enums/RideStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RideSharingApplication/Enums/RiderType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RideSharingApplication/IPriceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RideSharingApplication/InputProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RideSharingApplication/Interfaces/IRidePrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RideSharingApplication/Interfaces/Observable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RideSharingApplication/Interfaces/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RideSharingApplication/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RideSharingApplication/Models/Ride.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RideSharingApplication/Models/Rider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RideSharingApplication/PreferredRiderObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RideSharingApplication/Problem.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RideSharingApplication/RideService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RideSharingApplication/Strategies/PreferredpriceStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RideSharingApplication/Strategies/RegularpriceStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/Enums/GameState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/Enums/Piece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/Input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/InputProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/Models/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/Models/Player.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="jccy9z69" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2TbHVtpa1fptI8j3BAeP8W6IbD0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="TicTacToe" />
+      <recent name="RideApp" />
+      <recent name="LibrarySystem" />
+      <recent name="RideSharingApplication" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TicTacToe.Main">
+    <configuration name="DigitalWallet.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DigitalWallet.Main" />
+      <module name="LLD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DigitalWallet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibrarySystem.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LibrarySystem.Main" />
+      <module name="LLD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LibrarySystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RideApp.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RideApp.Main" />
+      <module name="LLD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RideApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RideSharingApplication.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RideSharingApplication.Main" />
+      <module name="LLD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RideSharingApplication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TicTacToe.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TicTacToe.Main" />
+      <module name="LLD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TicTacToe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TicTacToe.Main" />
+        <item itemvalue="Application.RideApp.Main" />
+        <item itemvalue="Application.LibrarySystem.Main" />
+        <item itemvalue="Application.RideSharingApplication.Main" />
+        <item itemvalue="Application.DigitalWallet.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="186d3dcd-002d-4977-b8eb-aebc88ba4d03" name="Changes" comment="" />
+      <created>1691304888576</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691304888576</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="10" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LibrarySystem/Models/User.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/RideApp/RideSelectorFactory.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TicTacToe/InputProcessor.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TicTacToe/Game.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="df.format(issuedDate)" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

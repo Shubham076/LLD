@@ -1,0 +1,59 @@
+Problem Definition:
+Design a Ride sharing application where drivers can offer rides [origin, destination, no of seats}, and rider
+can request rides origin, destination, no of seats}.
+
+There is an algo to choose to calculate Ride amount charged for a given ride based on distance and no of
+seats
+1. When the ride closes: shew the amount charged to the rider.
+2. Ride amount if no of seats >= 2 : No of kilometers * No of seats * 0.75 * amount Charged per KM
+3. Ride amount if no of seats = 1 : No of kilometers * amount Charged per KM
+The program should as input two or more driver and set of riders requesting rides. Multiple rides
+can happen simultaneously.
+
+Assumptions :
+1. Assume amount charged per KM = 20
+2. No of Kilometers = destination - origin
+3. All values are Integer
+
+
+TEST CASES
+A requesting ride R1
+INPUT: A requests 50,60,1,
+OUTPUT: Ride amount: 10 * 1 * 20[amount/km) = 200
+
+A requesting for ride R1
+INPUT: A requests 50,60,2,
+OUTPUT: Ride amount: 10 * 2 * 20[amount/km) = 300
+
+
+Bonus:
+Upgrade the rider te a preferred rider if he has done more than 2 rides.
+1: Preferred rider amount if No of seats >= 2 : No of kilometers * No of seats * 0.5 * amount
+Charged per KM
+1: Preferred rider amount if No of seats = 1 : No of kilometers * amount Charged per KM * 0.75
+
+
+Functionalities expected:
+Add Rider (name)
+Create Ride: (id, origin: destination, No of seats)
+Create Update: (id, origin, destination, No of seats)
+Withdraw Ride: (id)
+Close ride and return ride amount charged
+
+Expectations:
+1. Create the sample data  yourself. You can put it into a ﬁle. test case or main driver program
+itself.
+2. The code should be demo-able. Either by using the main driver program er test cases.
+3. The code should be modular. The code should haye the basic CID design. Please dc Not jam in
+the responsibilities of one class into another.
+4. The code should be extensible. Wherever applicable, use interfaces and contracts between
+different methods. It should be easy te add/remove functionality without rewriting the entire
+codebase.
+5. The code should handle edge cases properly and fail: gracefully.
+E. The code should be legible, readable and DRY.
+T. Database integration is not required.
+
+Guidelines:
+1. Please do Not access the internet fer anything EXCEPT syntax.
+2. You are free tc use the language and IDE cf your choice.
+3. The entire code should be your own.
