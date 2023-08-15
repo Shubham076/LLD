@@ -5,23 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="186d3dcd-002d-4977-b8eb-aebc88ba4d03" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SplitWise/Enums/ExpenseType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SplitWise/Factories/ExpenseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SplitWise/Factories/Splitfactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SplitWise/Input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SplitWise/InputProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SplitWise/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SplitWise/Models/Expense.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SplitWise/Models/Expenses/EqualExpense.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SplitWise/Models/Expenses/ExactExpense.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SplitWise/Models/Expenses/PercentageExpense.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SplitWise/Models/Split.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SplitWise/Models/Splits/EqualSplit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SplitWise/Models/Splits/ExactSplit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SplitWise/Models/Splits/PercentageSplit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SplitWise/Models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SplitWise/Problem.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SplitWise/Service/SplitwiseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BowlingAlley/AbstractClasses/BonusStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BowlingAlley/BowlingGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BowlingAlley/Enums/BonusStrategyType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BowlingAlley/Input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BowlingAlley/InputProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BowlingAlley/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BowlingAlley/Models/BowlingLane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BowlingAlley/Models/Frame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BowlingAlley/Models/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BowlingAlley/Models/ScoreBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BowlingAlley/Problem.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BowlingAlley/strategies/SpareStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BowlingAlley/strategies/StrikeStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,8 +29,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -60,20 +56,20 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="BowlingAlley" />
       <recent name="SplitWise" />
       <recent name="TicTacToe" />
       <recent name="RideApp" />
       <recent name="LibrarySystem" />
-      <recent name="RideSharingApplication" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="LibrarySystem.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LibrarySystem.Main" />
+  <component name="RunManager" selected="Application.BowlingAlley.Main">
+    <configuration name="BowlingAlley.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BowlingAlley.Main" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LibrarySystem.*" />
+          <option name="PATTERN" value="BowlingAlley.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BowlingAlley.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.SnakesAndLadders" />
         <item itemvalue="Application.TicTacToe.Main" />
         <item itemvalue="Application.RideApp.Main" />
-        <item itemvalue="Application.LibrarySystem.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -165,16 +161,6 @@
           <url>file://$PROJECT_DIR$/src/LibrarySystem/Models/User.java</url>
           <line>65</line>
           <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/RideApp/RideSelectorFactory.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/TicTacToe/Game.java</url>
-          <line>75</line>
-          <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/SplitWise/InputProcessor.java</url>

@@ -1,0 +1,5 @@
+addLane 10
+addPlayer 1 shubham
+addPlayer 1 shivani
+startGame 1
+show 1
