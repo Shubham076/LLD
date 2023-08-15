@@ -137,5 +137,4 @@ Rahul: 0 Taken, 0 Offered
 
 Shipra: 0 Taken, 2 Offered
 
-https://chat.openai.com/share/5a5240ff-95c0-4e6a-9f82-ddfe56c7c2e2
 

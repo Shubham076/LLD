@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="186d3dcd-002d-4977-b8eb-aebc88ba4d03" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BowlingAlley/AbstractClasses/BonusStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BowlingAlley/BowlingGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BowlingAlley/Enums/BonusStrategyType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BowlingAlley/Input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BowlingAlley/InputProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BowlingAlley/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BowlingAlley/Models/BowlingLane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BowlingAlley/Models/Frame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BowlingAlley/Models/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BowlingAlley/Models/ScoreBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BowlingAlley/Problem.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BowlingAlley/strategies/SpareStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BowlingAlley/strategies/StrikeStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RideApp/Problem.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/RideApp/Problem.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +50,7 @@
       <recent name="LibrarySystem" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BowlingAlley.Main">
+  <component name="RunManager" selected="Application.DigitalWallet.Main">
     <configuration name="BowlingAlley.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BowlingAlley.Main" />
       <module name="LLD" />
@@ -77,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SplitWise.Main" />
+    <configuration name="DigitalWallet.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DigitalWallet.Main" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SplitWise.*" />
+          <option name="PATTERN" value="DigitalWallet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RideApp.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RideApp.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SplitWise.Main" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RideApp.*" />
+          <option name="PATTERN" value="SplitWise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DigitalWallet.Main" />
         <item itemvalue="Application.BowlingAlley.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.SnakesAndLadders" />
         <item itemvalue="Application.TicTacToe.Main" />
-        <item itemvalue="Application.RideApp.Main" />
       </list>
     </recent_temporary>
   </component>

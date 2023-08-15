@@ -50,6 +50,7 @@ public class SplitwiseService {
 
             if (!isValid) {
                 System.out.println("Expense: " + expense.getId() + " is not valid");
+                return;
             }
 
             expenses.add(expense);
