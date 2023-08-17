@@ -93,7 +93,7 @@ public class SplitwiseService {
                 System.out.println("No balances");
             }
         } else {
-            System.out.println("User: " + user + " not found");
+            System.out.println("User: " + id + " not found");
         }
     }
 

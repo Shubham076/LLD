@@ -1,4 +1,4 @@
-Problem Definition:
+Trello Definition:
 Design a Ride sharing application where drivers can offer rides [origin, destination, no of seats}, and rider
 can request rides origin, destination, no of seats}.
 

@@ -1,0 +1,2 @@
+addBoard 1 url PUBLIC
+addUser

@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="186d3dcd-002d-4977-b8eb-aebc88ba4d03" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/RideApp/Problem.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/RideApp/Problem.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SplitWise/Service/SplitwiseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SplitWise/Service/SplitwiseService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +39,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.General&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Java&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -50,7 +51,7 @@
       <recent name="LibrarySystem" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DigitalWallet.Main">
+  <component name="RunManager" selected="Application.Trello.Main">
     <configuration name="BowlingAlley.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BowlingAlley.Main" />
       <module name="LLD" />
@@ -90,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SnakesAndLadders" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SnakesNLadders.SnakesAndLadders" />
+    <configuration name="RideApp.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RideApp.Main" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SnakesNLadders.*" />
+          <option name="PATTERN" value="RideApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicTacToe.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TicTacToe.Main" />
+    <configuration name="Trello.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trello.Main" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TicTacToe.*" />
+          <option name="PATTERN" value="Trello.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DigitalWallet.Main" />
+        <item itemvalue="Application.Trello.Main" />
         <item itemvalue="Application.BowlingAlley.Main" />
+        <item itemvalue="Application.RideApp.Main" />
+        <item itemvalue="Application.DigitalWallet.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.SnakesAndLadders" />
-        <item itemvalue="Application.TicTacToe.Main" />
       </list>
     </recent_temporary>
   </component>
